@@ -30,7 +30,7 @@ gsap.from(".about .title", {
 });
 
 gsap.from(".about_title", {
-  y: 80,
+  scale:0,
   opacity: 0,
   scrollTrigger: {
     trigger: ".skills",
@@ -63,8 +63,8 @@ gsap.from(".skills .title", {
 });
 
 gsap.from(".skills_title", {
-  y: 80,
-  opacity: 0,
+  scale:0,
+  // opacity: 0,
   scrollTrigger: {
     trigger: ".skills_title",
     scroller: ".two",
@@ -98,8 +98,8 @@ gsap.from(".portfolio .title", {
 });
 
 gsap.from(".portfolio_title", {
-  y: 80,
-  opacity: 0,
+  scale:0,
+  // opacity: 0,
   scrollTrigger: {
     trigger: ".portfolio_title",
     scroller: ".two",
