@@ -2,7 +2,6 @@ let t = gsap.timeline();
 let icons = document.querySelector(".three1");
 let menuBar = document.getElementById("menu_bar");
 let menu_icon = document.querySelector(".menuIcon");
-console.log(menu_icon);
 let one = document.querySelector(".one");
 let two = document.querySelector(".two");
 let three = document.querySelector(".three");
@@ -64,7 +63,6 @@ gsap.from(".skills .title", {
 
 gsap.from(".skills_title", {
   scale:0,
-  // opacity: 0,
   scrollTrigger: {
     trigger: ".skills_title",
     scroller: ".two",
@@ -99,7 +97,6 @@ gsap.from(".portfolio .title", {
 
 gsap.from(".portfolio_title", {
   scale:0,
-  // opacity: 0,
   scrollTrigger: {
     trigger: ".portfolio_title",
     scroller: ".two",
@@ -117,11 +114,4 @@ gsap.from(".portfolio_work", {
     end: "top 60%",
     scrub: true,
   },
-});
-
-menuBar.addEventListener("click", () => {
-    one.style.display = "block";
-    two.style.display = "none";
-    three.style.display = "none";
-  
 });
