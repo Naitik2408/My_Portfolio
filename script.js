@@ -115,3 +115,17 @@ gsap.from(".portfolio_work", {
     scrub: true,
   },
 });
+
+function sendEmail() {
+  // Replace 'your-subject' with the desired subject for the email
+  var subject = "Hiring Inquiry";
+
+  // Replace 'your-body' with the desired body text for the email
+  var body = "Hello Rishi,\n\nI'm interested in hiring you.";
+
+  // Concatenate the subject and body with the 'mailto:' link
+  var mailtoLink = "mailto:rishiroy2408@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+
+  // Open the user's email client with the mailto link
+  window.location.href = mailtoLink;
+}
