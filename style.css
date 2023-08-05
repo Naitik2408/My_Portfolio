@@ -298,7 +298,6 @@ section {
     flex-wrap: wrap;
     gap: 30px;
     padding-bottom: 100px;
-    /* background-color: red; */
 }
 .portfolio_work{
     width: 45%;

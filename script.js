@@ -5,6 +5,8 @@ let menu_icon = document.querySelector(".menuIcon");
 let one = document.querySelector(".one");
 let two = document.querySelector(".two");
 let three = document.querySelector(".three");
+let m_icons=document.querySelector('.m_one14');
+
 
 gsap.from(".sub_title h4", {
   y: 50,
@@ -16,6 +18,11 @@ gsap.from(".sub_title h4", {
 gsap.from(".sub_title2", {
   scale:0,
 });
+gsap.from(".m_one14",{
+  scale:0,
+  delay:0.6,
+  duration:0.6
+})
 
 gsap.from(".about .title", {
   scale:0,
@@ -121,7 +128,7 @@ function sendEmail() {
   var subject = "we find your profile Intreasting. I want to hire you.";
 
   // Replace 'your-body' with the desired body text for the email
-  var body = "Hello Rishi,\n\nI'm interested in hiring you.";
+  var body = "Hello Naitik kumar,\n\nI'm interested in hiring you.";
 
   // Concatenate the subject and body with the 'mailto:' link
   var mailtoLink = "mailto:rishiroy2408@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
