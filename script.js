@@ -120,8 +120,40 @@ gsap.from(".portfolio_work", {
     start: "top 90%",
     end: "top 60%",
     scrub: true,
+  }
+});
+gsap.from(".certificate .title", {
+  scale:0,
+  scrollTrigger: {
+    trigger: ".certificate .title",
+    scroller: ".two",
+    start: "top 70%",
+    end: "top 40%",
+    scrub: true,
   },
 });
+
+gsap.from(".certificate_title", {
+  scale:0,
+  scrollTrigger: {
+    trigger: ".certificate_title",
+    scroller: ".two",
+    start: "top 70%",
+    end: "top 40%",
+    scrub: true,
+  },
+});
+gsap.from(".certificate_work", {
+  scale:0,
+  scrollTrigger: {
+    trigger: ".certificate_work",
+    scroller: ".two",
+    start: "top 90%",
+    end: "top 60%",
+    scrub: true,
+  }
+});
+
 
 function sendEmail() {
   // Replace 'your-subject' with the desired subject for the email

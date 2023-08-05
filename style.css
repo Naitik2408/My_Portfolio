@@ -19,7 +19,7 @@ body {
 
 /* .....................................  */
 section {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     border-radius: 10px;
     background: linear-gradient(to bottom,rgba(0, 0, 0, 0.735),rgba(0, 0, 0, 0.5)),url(adrien-olichon-RCAhiGJsUUE-unsplash\ -\ Copy.jpg);
@@ -325,6 +325,49 @@ section {
     background-size: cover;
     background-position: center;
 }
+.certificate{
+    width: 88%;
+}
+.certificate_title{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+.certificate_title span{
+    color: rgb(1, 162, 44);
+}
+.certificate_sub_title{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+.certificate_work{
+    width: 45%;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#cf1{
+    background-image: url(Screenshot\ \(58\).png);
+    background-size: cover;
+    background-position: center;
+}
+#cf2{
+    background-image: url(Screenshot\ \(59\).png);
+    background-size: cover;
+    background-position: center;
+}
+#cf3{
+    background-image: url(Screenshot\ \(55\).png);
+    background-size: cover;
+    background-position: center;
+}
+#cf4{
+    background-image: url(bewkoof.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 
 /* ..................................................  */
@@ -367,6 +410,7 @@ section {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     section{
+        width: 100vw;
         background: linear-gradient(linear-gradient(to bottom,rgba(0, 0, 0, 0.735),rgba(0, 0, 0, 0.5))),url(adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
         background-size: cover;
     }
@@ -480,7 +524,18 @@ section {
         height: 180px;
     }
     .portfolio_sub_title{
-        padding-bottom: 150px;
+        padding-bottom: 30px;
+        justify-content: space-evenly;
+    }
+    .certificate{
+        width: 97%;
+    }
+    .certificate_work{
+        width: 88%;
+        height: 180px;
+    }
+    .certificate_sub_title{
+        padding-bottom: 30px;
         justify-content: space-evenly;
     }
     .Hire_me{
