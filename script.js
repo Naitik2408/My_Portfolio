@@ -118,7 +118,7 @@ gsap.from(".portfolio_work", {
 
 function sendEmail() {
   // Replace 'your-subject' with the desired subject for the email
-  var subject = "Hiring Inquiry";
+  var subject = "we find your profile Intreasting. I want to hire you.";
 
   // Replace 'your-body' with the desired body text for the email
   var body = "Hello Rishi,\n\nI'm interested in hiring you.";
