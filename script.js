@@ -6,6 +6,7 @@ let one = document.querySelector(".one");
 let two = document.querySelector(".two");
 let three = document.querySelector(".three");
 let m_icons=document.querySelector('.m_one14');
+let a=document.getElementById('pagalworld.com')
 
 
 gsap.from(".sub_title h4", {
@@ -119,10 +120,7 @@ gsap.from(".portfolio_work", {
     scroller: ".two",
     start:"top 70%",
     end:"top 40%",
-    // start: "top 90%",
-    // end: "top 60%",
     scrub: true,
-    markers:true,
   }
 });
 gsap.from(".certificate .title", {
@@ -166,7 +164,7 @@ function sendEmail() {
   var body = "Hello Naitik kumar,\n\nI'm interested in hiring you.";
 
   // Concatenate the subject and body with the 'mailto:' link
-  var mailtoLink = "mailto:rishiroy2408@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  var mailtoLink = "mailto:naitikkumarofficial2408@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
 
   // Open the user's email client with the mailto link
   window.location.href = mailtoLink;
