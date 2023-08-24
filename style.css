@@ -325,6 +325,11 @@ section {
     background-size: cover;
     background-position: center;
 }
+#pf5{
+    background-image: url(Screenshot\ \(66\).png);
+    background-size: cover;
+    /* background-position: 20px 0px; */
+}
 .certificate{
     width: 88%;
 }

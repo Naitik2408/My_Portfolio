@@ -117,9 +117,12 @@ gsap.from(".portfolio_work", {
   scrollTrigger: {
     trigger: ".portfolio_work",
     scroller: ".two",
-    start: "top 90%",
-    end: "top 60%",
+    start:"top 70%",
+    end:"top 40%",
+    // start: "top 90%",
+    // end: "top 60%",
     scrub: true,
+    markers:true,
   }
 });
 gsap.from(".certificate .title", {
