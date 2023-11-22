@@ -4,6 +4,17 @@
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
 }
+#pageLoder{
+    width: 100%;
+    height: 100vh;
+    background: rgb(7, 0, 30) url('./images/yy3.gif') no-repeat center center;
+    background-size: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -22,7 +33,7 @@ section {
     width: 100vw;
     height: 100%;
     border-radius: 10px;
-    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.735),rgba(0, 0, 0, 0.5)),url(adrien-olichon-RCAhiGJsUUE-unsplash\ -\ Copy.jpg);
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.735),rgba(0, 0, 0, 0.5)),url('./images/adrien-olichon-RCAhiGJsUUE-unsplash\ -\ Copy.jpg');
     background-size: cover;
     overflow: hidden;
     display: flex;
@@ -80,7 +91,7 @@ section {
 .one1211{
     width: 100%;
     height: 100%;
-    background-image: url(profile\ photo.jpg);
+    background-image: url('./images/profile\ photo.jpg');
     background-position: 10px -60px;
     background-size: cover;
     scale: 1.2;
@@ -306,29 +317,28 @@ section {
     cursor: pointer;
 }
 #pf1{
-    background-image: url(netflix.jpg);
+    background-image: url('./images/netflix.jpg');
     background-size: cover;
     background-position: center;
 }
 #pf2{
-    background-image: url(spotify.jpg);
+    background-image: url('./images/spotify.jpg');
     background-size: cover;
     background-position: center;
 }
 #pf3{
-    background-image: url(Screenshot\ \(55\).png);
+    background-image: url('./images/Screenshot\ \(55\).png');
     background-size: cover;
     background-position: center;
 }
 #pf4{
-    background-image: url(Screenshot\ \(61\).png);
+    background-image: url('./images/Screenshot\ \(61\).png');
     background-size: cover;
     background-position: center;
 }
 #pf5{
-    background-image: url(Screenshot\ \(66\).png);
+    background-image: url('./images/Screenshot\ \(66\).png');
     background-size: cover;
-    /* background-position: 20px 0px; */
 }
 .certificate{
     width: 88%;
@@ -354,22 +364,22 @@ section {
     cursor: pointer;
 }
 #cf1{
-    background-image: url(Screenshot\ \(58\).png);
+    background-image: url('./images/Screenshot\ \(58\).png');
     background-size: cover;
     background-position: center;
 }
 #cf2{
-    background-image: url(Screenshot\ \(59\).png);
+    background-image: url('./images/Screenshot\ \(59\).png');
     background-size: cover;
     background-position: center;
 }
 #cf3{
-    background-image: url(Screenshot\ \(55\).png);
+    background-image: url('./images/Screenshot\ \(55\).png');
     background-size: cover;
     background-position: center;
 }
 #cf4{
-    background-image: url(bewkoof.jpg);
+    background-image: url('./images/bewkoof.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -416,7 +426,7 @@ section {
 @media screen and (min-width: 320px) and (max-width: 480px) {
     section{
         width: 100vw;
-        background: linear-gradient(linear-gradient(to bottom,rgba(0, 0, 0, 0.735),rgba(0, 0, 0, 0.5))),url(adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+        background: linear-gradient(linear-gradient(to bottom,rgba(0, 0, 0, 0.735),rgba(0, 0, 0, 0.5))),url('./images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg');
         background-size: cover;
     }
     #menu_bar{

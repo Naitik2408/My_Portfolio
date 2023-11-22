@@ -6,7 +6,6 @@ let one = document.querySelector(".one");
 let two = document.querySelector(".two");
 let three = document.querySelector(".three");
 let m_icons=document.querySelector('.m_one14');
-let a=document.getElementById('pagalworld.com')
 
 
 gsap.from(".sub_title h4", {
@@ -169,3 +168,9 @@ function sendEmail() {
   // Open the user's email client with the mailto link
   window.location.href = mailtoLink;
 }
+
+const loder=document.getElementById('pageLoder');
+
+window.addEventListener('load',()=>{
+  loder.style.display='none';
+})
