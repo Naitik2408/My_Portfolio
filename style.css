@@ -210,6 +210,7 @@ section {
 }
 
 .introduce .sub_title2 {
+    width: 50%;
     font-size: 12px;
     color: rgb(149, 149, 149);
     margin-bottom: 60px;
@@ -446,12 +447,13 @@ section {
         background-position: 30px -90px;
     }
     .m_one14 {
-        margin-top: 30px;
         width: 100%;
         height: 10%;
         padding: 12px 100px;
-        display: block;
-        margin: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px 20px 0px;
     }
     
     .m_one14 i {
@@ -474,11 +476,12 @@ section {
         color: rgb(37, 43, 45);
         background-color: rgb(1, 162, 44);
         border-radius: 35px;
-        padding: 5px 90px;
+        padding: 5px 0px;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 19px;
         margin: 0px 35px 0px 35px;
-        display: block;
+        display: flex;
+        justify-content: center;
     }
     .Hire_me i{
         margin-right: 6px;
@@ -494,6 +497,8 @@ section {
     }
     .introduce .title{
         font-size: 9px;
+        /* margin-top: 20px; */
+        margin: 20px 0 30px;
     }
     .introduce .sub_title{
         margin-left: 16px;
@@ -501,14 +506,15 @@ section {
         font-size: 40px;
     }
     .introduce .sub_title2{
+        width: 95%;
         margin: 50px 0;
         font-size: 13px;
     }
     .introduce .sub_title h4{
-        margin: -15px;
+        margin: -20px -15px;
     }
     .number{
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     .about_title,.skills_title, .portfolio_title{
         font-size: 25px;
