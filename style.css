@@ -418,6 +418,9 @@ section {
     width: 80%;
     height: 100vh;
 }
+#m_navbar{
+    display: none;
+}
 
 
 
@@ -569,5 +572,27 @@ section {
     }
     .three1{
         width: 55%;
+    }
+    #m_navbar{
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        /* bottom: 20px; */
+        bottom: 0px;
+        font-size: 20px;
+        transition: 0.3s ease-in;
+        z-index: 1000;
+    }
+    #m_navbar .m_three1{
+        width: 90%;
+        background-color: rgb(1, 196, 53);
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px 0;
+        border-radius: 8px;
     }
   }

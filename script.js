@@ -176,7 +176,24 @@ function sendEmail() {
 
 
 const loder=document.getElementById('pageLoder');
+const m_navbar=document.getElementById('m_navbar');
+const box_two=document.getElementById('box_two')
 
 window.addEventListener('load',()=>{
   loder.style.display='none';
 })
+
+box_two.addEventListener('scroll',()=>{
+  if(box_two.scrollTop > 100){
+    m_navbar.style.height='48px';
+    m_navbar.style.bottom='20px';
+  }
+  else{
+    m_navbar.style.height='0px';
+    m_navbar.style.bottom='0px';
+  }
+})
+
+
+
+
