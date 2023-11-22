@@ -162,12 +162,18 @@ function sendEmail() {
   // Replace 'your-body' with the desired body text for the email
   var body = "Hello Naitik kumar,\n\nI'm interested in hiring you.";
 
-  // Concatenate the subject and body with the 'mailto:' link
+  // Construct the mailto link
   var mailtoLink = "mailto:naitikkumarofficial2408@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
 
-  // Open the user's email client with the mailto link
-  window.location.href = mailtoLink;
+  try {
+    // Try opening the mailto link
+    window.location.href = mailtoLink;
+  } catch (error) {
+    // If mailto link fails, display an explicit alert
+    alert("Unable to open mailto link. Please copy and paste the following email into your preferred email client:\n\nSubject: " + subject + "\n\nBody:\n\n" + body);
+  }
 }
+
 
 const loder=document.getElementById('pageLoder');
 
